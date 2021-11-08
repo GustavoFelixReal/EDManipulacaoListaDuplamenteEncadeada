@@ -1,1 +1,1 @@
-sudo docker run -d -t --name imgf1java -v /tmp/dockerf1:/usr/src/newapps/ imgf1java:1
+sudo docker exec -it imgf1java java -jar F12.jar
